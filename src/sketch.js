@@ -13,7 +13,7 @@ function setup(){
 
 
 function draw(){
-  background(30);
+  background(250);
   jugador.move();
   jugador.show();
   b.move();

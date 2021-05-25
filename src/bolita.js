@@ -17,6 +17,7 @@ function Bolita(){
            this.vx = -this.vx;
 
     }
+    
     this.choque = function(e){
         if(this.y <= e.y + e.h/2 + 30 && this.y >= e.y - e.h/2)
            if(this.x >= e.top && this.x <=e.bottom)
